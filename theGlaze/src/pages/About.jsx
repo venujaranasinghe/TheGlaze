@@ -5,25 +5,25 @@ const About = () => {
     {
       name: "Emma Baker",
       role: "Head Pastry Chef",
-      image: "/images/team-1.jpg",
+      image: "/images/product.jpg",
       bio: "With over 15 years of experience, Emma brings creativity and precision to every creation.",
     },
     {
       name: "Michael Chen",
       role: "Cake Designer",
-      image: "/images/team-2.jpg",
+      image: "/images/product.jpg",
       bio: "Michael specializes in intricate cake designs and has won multiple awards for his work.",
     },
     {
       name: "Sophia Rodriguez",
       role: "Pastry Specialist",
-      image: "/images/team-3.jpg",
+      image: "/images/product.jpg",
       bio: "Sophia's passion for traditional recipes with modern twists creates unique flavors.",
     },
     {
       name: "James Wilson",
       role: "Founder & Owner",
-      image: "/images/team-4.jpg",
+      image: "/images/product.jpg",
       bio: "James founded TheGlaze with a vision to create memorable dessert experiences.",
     },
   ]
@@ -54,7 +54,7 @@ const About = () => {
             what you taste is at its absolute best.
           </p>
         </div>
-        <div className="story-image" style={{ backgroundImage: "url(/images/bakery-story.jpg)" }}></div>
+        <div className="story-image" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
       </section>
 
       <section className="values-section">

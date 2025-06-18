@@ -1,73 +1,81 @@
 .product-grid-section {
   max-width: 1200px;
-  margin: 80px auto;
+  margin: 120px auto;
   padding: 0 20px;
 }
 
 .product-grid-title {
   text-align: center;
-  font-size: 2.5rem;
-  color: #2c1810;
-  margin-bottom: 60px;
+  font-size: 3rem;
+  color: #1a1a1a;
+  margin-bottom: 80px;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: -0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
 }
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 48px;
 }
 
 .product-item {
   background: white;
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .product-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
 .product-image {
-  height: 250px;
+  height: 280px;
   background-size: cover;
   background-position: center;
   position: relative;
+  filter: grayscale(10%);
+}
+
+.product-item:hover .product-image {
+  filter: grayscale(0%);
 }
 
 .featured-badge {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  background-color: #d4af37;
-  color: #2c1810;
-  padding: 5px 12px;
+  top: 16px;
+  right: 16px;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
 }
 
 .product-info {
-  padding: 25px;
+  padding: 32px;
 }
 
 .product-name {
-  font-size: 1.3rem;
-  color: #2c1810;
-  margin-bottom: 10px;
-  font-weight: 400;
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .product-description {
-  color: #666;
+  color: #666666;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  font-weight: 400;
 }
 
 .product-meta {
@@ -77,33 +85,36 @@
 }
 
 .product-price {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  color: #8b4513;
+  color: #1a1a1a;
 }
 
 .product-link {
-  color: #8b4513;
+  color: #1a1a1a;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
   font-size: 0.9rem;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
 }
 
 .product-link:hover {
-  border-bottom-color: #8b4513;
+  border-bottom-color: #1a1a1a;
 }
 
 @media (max-width: 768px) {
   .product-grid {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 40px;
   }
 
   .product-grid-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+  }
+
+  .product-info {
+    padding: 24px;
   }
 }
