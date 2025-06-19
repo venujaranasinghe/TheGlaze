@@ -90,11 +90,16 @@
 
 .insta-img {
   aspect-ratio: 1;
-  background: linear-gradient(45deg, #333333, #666666);
+  background: 
+    linear-gradient(45deg, #333333cc, #666666cc), 
+    url('/image/product.jpg');
+  background-size: cover;
+  background-position: center;
   border-radius: 8px;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
+
 
 .insta-img:hover {
   opacity: 1;

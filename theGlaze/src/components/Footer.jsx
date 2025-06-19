@@ -97,12 +97,25 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Instagram Feed</h4>
             <div className="instagram-feed">
-              <div className="insta-img"></div>
-              <div className="insta-img"></div>
-              <div className="insta-img"></div>
-              <div className="insta-img"></div>
+              <div
+                className="insta-img"
+                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+              ></div>
+              <div
+                className="insta-img"
+                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+              ></div>
+              <div
+                className="insta-img"
+                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+              ></div>
+              <div
+                className="insta-img"
+                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+              ></div>
             </div>
           </div>
+
 
           <div className="footer-column">
             <h4>Join The Club</h4>

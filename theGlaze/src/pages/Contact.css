@@ -26,13 +26,13 @@
 }
 
 .info-icon {
-  color: #d4af37;
+  color: #000000;
   margin-bottom: 20px;
 }
 
 .info-card h3 {
   font-size: 1.3rem;
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 15px;
   font-weight: 400;
 }
@@ -52,7 +52,7 @@
 
 .contact-form-container h2 {
   font-size: 2rem;
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -69,7 +69,7 @@
 }
 
 .form-group label {
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 8px;
   font-weight: 500;
 }
@@ -86,13 +86,13 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #d4af37;
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .submit-button {
   padding: 15px 30px;
-  background-color: #8b4513;
+  background-color: #0a0a0a;
   color: white;
   border-radius: 8px;
   font-weight: 500;
@@ -103,7 +103,7 @@
 }
 
 .submit-button:hover {
-  background-color: #a0522d;
+  background-color: #000000;
   transform: translateY(-2px);
 }
 
@@ -135,7 +135,7 @@
 .map-container h2 {
   text-align: center;
   font-size: 2rem;
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 40px;
   font-weight: 400;
 }
@@ -166,7 +166,7 @@
 .faq-section h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 60px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -189,7 +189,7 @@
 
 .faq-item h3 {
   font-size: 1.2rem;
-  color: #2c1810;
+  color: #000000;
   margin-bottom: 15px;
   font-weight: 500;
 }

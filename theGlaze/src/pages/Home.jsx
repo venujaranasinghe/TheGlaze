@@ -45,9 +45,9 @@ const Home = () => {
       />
 
       <div className="gallery-preview">
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/gallery-1.jpg)" }}></div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/gallery-2.jpg)" }}></div>
-        <div className="gallery-item video-item" style={{ backgroundImage: "url(/images/gallery-video.jpg)" }}>
+        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
+        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
+        <div className="gallery-item video-item" style={{ backgroundImage: "url(/images/product.jpg)" }}>
           <div className="play-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -64,15 +64,15 @@ const Home = () => {
             </svg>
           </div>
         </div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/gallery-3.jpg)" }}></div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/gallery-4.jpg)" }}></div>
+        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
+        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
       </div>
 
       <FeaturedSection
         title="The recipe to happiness"
         description="Our pastry chefs blend artistry with flavor to create desserts that are as beautiful as they are delicious. Each creation is a masterpiece of taste and design, made fresh daily in our bakery."
-        image1="/images/dessert-1.jpg"
-        image2="/images/dessert-2.jpg"
+        image1="/images/product.jpg"
+        image2="/images/product.jpg"
         linkText="View Our Menu"
         linkUrl="/menu"
       />
