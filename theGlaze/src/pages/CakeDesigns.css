@@ -13,8 +13,8 @@
 .category-button {
   padding: 12px 25px;
   background-color: transparent;
-  color: #8b4513;
-  border: 2px solid #8b4513;
+  color: #000000;
+  border: 2px solid #383737;
   border-radius: 25px;
   font-weight: 500;
   text-transform: uppercase;
@@ -25,7 +25,7 @@
 
 .category-button:hover,
 .category-button.active {
-  background-color: #8b4513;
+  background-color: #000000;
   color: white;
   transform: translateY(-2px);
 }
@@ -75,7 +75,7 @@
 }
 
 .custom-design-cta {
-  background: linear-gradient(135deg, #2c1810 0%, #4a2c1a 100%);
+  background: linear-gradient(135deg, #404040 0%, #858585 100%);
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -100,8 +100,8 @@
 
 .cta-button {
   padding: 15px 35px;
-  background-color: #d4af37;
-  color: #2c1810;
+  background-color: #000000;
+  color: #fff9f7;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -110,7 +110,7 @@
 }
 
 .cta-button:hover {
-  background-color: #b8941f;
+  background-color: #404040;
   transform: translateY(-2px);
 }
 

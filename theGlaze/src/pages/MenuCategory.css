@@ -13,8 +13,8 @@
 .filter-tab {
   padding: 12px 25px;
   background-color: transparent;
-  color: #8b4513;
-  border: 2px solid #8b4513;
+  color: #000000;
+  border: 2px solid #0c0c0c;
   border-radius: 25px;
   font-weight: 500;
   text-transform: uppercase;
@@ -25,7 +25,7 @@
 
 .filter-tab:hover,
 .filter-tab.active {
-  background-color: #8b4513;
+  background-color: #2a2a29;
   color: white;
   transform: translateY(-2px);
 }

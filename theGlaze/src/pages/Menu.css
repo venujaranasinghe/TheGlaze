@@ -113,7 +113,7 @@
 .info-link {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #8b4513;
+  background-color: #000000;
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -123,7 +123,7 @@
 }
 
 .info-link:hover {
-  background-color: #a0522d;
+  background-color: #515150;
   transform: translateY(-2px);
 }
 
