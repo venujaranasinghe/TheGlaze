@@ -3,28 +3,22 @@ import "./About.css"
 const About = () => {
   const teamMembers = [
     {
-      name: "Emma Baker",
-      role: "Head Pastry Chef",
-      image: "/images/product.jpg",
-      bio: "With over 15 years of experience, Emma brings creativity and precision to every creation.",
+      name: "Dulasha",
+      role: "Wanigasekara",
+      image: "/images/p.jpg",
+      bio: "With over 5 years of experience, Dulasha brings creativity and precision to every creation.",
     },
+    // {
+    //   name: "Sophia Rodriguez",
+    //   role: "Pastry Specialist",
+    //   image: "/images/product.jpg",
+    //   bio: "Sophia's passion for traditional recipes with modern twists creates unique flavors.",
+    // },
     {
-      name: "Michael Chen",
-      role: "Cake Designer",
-      image: "/images/product.jpg",
-      bio: "Michael specializes in intricate cake designs and has won multiple awards for his work.",
-    },
-    {
-      name: "Sophia Rodriguez",
-      role: "Pastry Specialist",
-      image: "/images/product.jpg",
-      bio: "Sophia's passion for traditional recipes with modern twists creates unique flavors.",
-    },
-    {
-      name: "James Wilson",
-      role: "Founder & Owner",
-      image: "/images/product.jpg",
-      bio: "James founded TheGlaze with a vision to create memorable dessert experiences.",
+      name: "Emasha",
+      role: "Wanigasekara",
+      image: "/images/p.jpg",
+      bio: "Emasha founded TheGlaze with a vision to create memorable dessert experiences.",
     },
   ]
 
@@ -39,7 +33,7 @@ const About = () => {
         <div className="story-content">
           <h2>Our Story</h2>
           <p>
-            Founded in 2010, TheGlaze began as a small family bakery with a big dream: to create desserts that bring joy
+            Founded in 2019, TheGlaze began as a small family bakery with a big dream: to create desserts that bring joy
             to every celebration. What started as a passion project in a home kitchen has grown into a beloved
             destination for cake lovers across the city.
           </p>

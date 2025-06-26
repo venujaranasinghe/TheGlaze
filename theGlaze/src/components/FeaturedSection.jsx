@@ -15,8 +15,9 @@ const FeaturedSection = ({ title, description, image1, image2, linkText, linkUrl
         </Link>
       </div>
       <div className="featured-images">
-        <div className="featured-image" style={{ backgroundImage: `url(/images/product.jpg)` }}></div>
-        <div className="featured-image" style={{ backgroundImage: `url(/images/product.jpg)` }}></div>
+        <div className="featured-image" style={{ backgroundImage: `url(/images/w1.jpg)` }}></div>
+        <div className="featured-image" style={{ backgroundImage: `url(/images/w2.jpg)` }}></div>
+        <div className="featured-image" style={{ backgroundImage: `url(/images/w3.jpg)` }}></div>
       </div>
     </section>
   )

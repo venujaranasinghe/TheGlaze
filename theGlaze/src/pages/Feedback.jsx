@@ -9,75 +9,165 @@ const Feedback = () => {
   const feedbackImages = [
     {
       id: 1,
-      image: "/images/product.jpg",
-      customer: "Sarah M.",
-      date: "May 15, 2023",
+      image: "/images/Feedback/IMG_2030.JPG",
+      customer: "Customer 1",
+      date: "May 15, 2024",
     },
     {
       id: 2,
-      image: "/images/product.jpg",
-      customer: "John D.",
-      date: "April 22, 2023",
+      image: "/images/Feedback/IMG_2031.JPG",
+      customer: "Customer 2",
+      date: "April 22, 2024",
     },
     {
       id: 3,
-      image: "/images/product.jpg",
-      customer: "Emily R.",
-      date: "June 3, 2023",
+      image: "/images/Feedback/IMG_2032.JPG",
+      customer: "Customer 3",
+      date: "June 3, 2024",
     },
     {
       id: 4,
-      image: "/images/product.jpg",
-      customer: "Michael T.",
-      date: "May 28, 2023",
+      image: "/images/Feedback/IMG_2033.JPG",
+      customer: "Customer 4",
+      date: "May 28, 2024",
     },
     {
       id: 5,
-      image: "/images/product.jpg",
-      customer: "Lisa K.",
-      date: "June 10, 2023",
+      image: "/images/Feedback/IMG_2034.JPG",
+      customer: "Customer 5",
+      date: "June 10, 2024",
     },
     {
       id: 6,
-      image: "/images/product.jpg",
-      customer: "David W.",
-      date: "April 15, 2023",
+      image: "/images/Feedback/IMG_2035.JPG",
+      customer: "Customer 6",
+      date: "April 15, 2024",
     },
     {
       id: 7,
-      image: "/images/product.jpg",
-      customer: "Jessica P.",
-      date: "May 5, 2023",
+      image: "/images/Feedback/IMG_2036.JPG",
+      customer: "Customer 7",
+      date: "May 5, 2024",
     },
     {
       id: 8,
-      image: "/images/product.jpg",
-      customer: "Robert J.",
-      date: "June 18, 2023",
+      image: "/images/Feedback/IMG_2037.JPG",
+      customer: "Customer 8",
+      date: "June 18, 2024",
     },
     {
       id: 9,
-      image: "/images/product.jpg",
-      customer: "Amanda S.",
-      date: "May 20, 2023",
+      image: "/images/Feedback/IMG_2038.JPG",
+      customer: "Customer 9",
+      date: "May 20, 2024",
     },
     {
       id: 10,
-      image: "/images/product.jpg",
-      customer: "Thomas B.",
-      date: "April 30, 2023",
+      image: "/images/Feedback/IMG_2039.JPG",
+      customer: "Customer 10",
+      date: "April 30, 2024",
     },
     {
       id: 11,
-      image: "/images/product.jpg",
-      customer: "Olivia N.",
+      image: "/images/Feedback/IMG_2040.JPG",
+      customer: "Customer 11",
       date: "June 5, 2023",
     },
     {
       id: 12,
-      image: "/images/product.jpg",
-      customer: "William H.",
-      date: "May 12, 2023",
+      image: "/images/Feedback/IMG_2041.JPG",
+      customer: "Customer 12",
+      date: "August 5, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2042.JPG",
+      customer: "Customer 13",
+      date: "August 24, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2043.JPG",
+      customer: "Customer 14",
+      date: "September 13, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2044.JPG",
+      customer: "Customer 15",
+      date: "September 1, 2023",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2045.JPG",
+      customer: "Customer 16",
+      date: "October 19, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2046.JPG",
+      customer: "Customer 17",
+      date: "November 27, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2047.JPG",
+      customer: "Customer 18",
+      date: "November 12, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2048.JPG",
+      customer: "Customer 19",
+      date: "December 2, 2024",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2049.JPG",
+      customer: "Customer 20",
+      date: "Jan 17, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2050.JPG",
+      customer: "Customer 21",
+      date: "Feb 12, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2051.JPG",
+      customer: "Customer 22",
+      date: "March 22, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2052.JPG",
+      customer: "Customer 23",
+      date: "March 12, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2053.JPG",
+      customer: "Customer 24",
+      date: "April 12, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2054.JPG",
+      customer: "Customer 25",
+      date: "May 1, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2055.JPG",
+      customer: "Customer 26",
+      date: "May 10, 2025",
+    },
+    {
+      id: 12,
+      image: "/images/Feedback/IMG_2056.JPG",
+      customer: "Customer 27",
+      date: "May 12, 2025",
     },
   ]
 
@@ -204,12 +294,12 @@ const Feedback = () => {
         >
           Photo Gallery
         </button>
-        <button
+        {/* <button
           className={`tab-button ${activeTab === "testimonials" ? "active" : ""}`}
           onClick={() => setActiveTab("testimonials")}
         >
           Testimonials
-        </button>
+        </button> */}
         <button
           className={`tab-button ${activeTab === "submit" ? "active" : ""}`}
           onClick={() => setActiveTab("submit")}
@@ -233,7 +323,7 @@ const Feedback = () => {
           </div>
         )}
 
-        {activeTab === "testimonials" && (
+        {/* {activeTab === "testimonials" && (
           <div className="testimonials-list">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="testimonial-card">
@@ -254,7 +344,7 @@ const Feedback = () => {
               </div>
             ))}
           </div>
-        )}
+        )} */}
 
         {activeTab === "submit" && (
           <div className="feedback-form-container">

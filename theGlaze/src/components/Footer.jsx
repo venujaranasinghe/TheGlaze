@@ -99,19 +99,19 @@ const Footer = () => {
             <div className="instagram-feed">
               <div
                 className="insta-img"
-                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+                style={{ backgroundImage: 'url(/images/Cakes/IMG_1835.JPG)' }}
               ></div>
               <div
                 className="insta-img"
-                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+                style={{ backgroundImage: 'url(/images/Cakes/IMG_1831.JPG)' }}
               ></div>
               <div
                 className="insta-img"
-                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+                style={{ backgroundImage: 'url(/images/Cakes/IMG_1827.JPG)' }}
               ></div>
               <div
                 className="insta-img"
-                style={{ backgroundImage: 'url(/images/product.jpg)' }}
+                style={{ backgroundImage: 'url(/images/Cakes/IMG_1821.JPG)' }}
               ></div>
             </div>
           </div>
@@ -125,8 +125,8 @@ const Footer = () => {
               <button type="submit">Subscribe</button>
             </form>
             <div className="contact-info">
-              <p>Contact: +1 (234) 567-8910</p>
-              <p>Email: info@theglaze.com</p>
+              <p>Contact: +94 70 571 7077</p>
+              <p>Email: wanigasekaradulasha@gmail.com</p>
             </div>
           </div>
         </div>
