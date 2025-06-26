@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import "./Contact.css"
+import MapComponent from "../components/MapComponent"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -80,7 +81,7 @@ const Contact = () => {
               </svg>
             </div>
             <h3>Phone</h3>
-            <p>+1 (234) 567-8910</p>
+            <p>+94 (70) 571-7077</p>
             <p>Mon-Fri: 8am - 6pm</p>
           </div>
 
@@ -102,8 +103,7 @@ const Contact = () => {
               </svg>
             </div>
             <h3>Email</h3>
-            <p>info@theglaze.com</p>
-            <p>orders@theglaze.com</p>
+            <p>wanigasekaradulasha@gmail.com</p>
           </div>
 
           <div className="info-card">
@@ -124,8 +124,8 @@ const Contact = () => {
               </svg>
             </div>
             <h3>Location</h3>
-            <p>123 Bakery Street</p>
-            <p>Sweet City, SC 12345</p>
+            <p>Kandy</p>
+            <p>Sri Lanka</p>
           </div>
 
           <div className="info-card">
@@ -210,9 +210,7 @@ const Contact = () => {
         <h2>Find Us</h2>
         <div className="map">
           {/* This would be replaced with an actual map integration */}
-          <div className="map-placeholder">
-            <p>Map integration would be placed here</p>
-          </div>
+          <MapComponent />
         </div>
       </div>
 

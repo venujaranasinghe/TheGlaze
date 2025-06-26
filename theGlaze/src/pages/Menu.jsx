@@ -7,19 +7,19 @@ const Menu = () => {
       id: "cakes",
       name: "Cakes",
       description: "Artisanal cakes for every occasion",
-      image: "/images/product.jpg",
+      image: "/images/bg1.jpg",
     },
     {
       id: "cookies",
       name: "Cookies",
       description: "Freshly baked cookies in various flavors",
-      image: "/images/product.jpg",
+      image: "/images/bg2.jpg",
     },
     {
       id: "cupcakes",
       name: "Cupcakes",
       description: "Delightful cupcakes with creative toppings",
-      image: "/images/product.jpg",
+      image: "/images/bg3.jpg",
     },
   ]
 

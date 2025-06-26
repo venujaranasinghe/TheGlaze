@@ -168,7 +168,7 @@ const About = () => {
               "The birthday cake TheGlaze made for my daughter was not only beautiful but absolutely delicious. Everyone
               at the party was impressed!"
             </p>
-            <div className="testimonial-author">- Sarah M.</div>
+            <div className="testimonial-author">- Anonymous</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">
@@ -182,7 +182,7 @@ const About = () => {
               "Their attention to detail is amazing. Our wedding cake was exactly what we envisioned and tasted even
               better than it looked."
             </p>
-            <div className="testimonial-author">- David & Lisa</div>
+            <div className="testimonial-author">- Anonymous</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">
@@ -196,7 +196,7 @@ const About = () => {
               "I've tried many bakeries, but TheGlaze's cookies are simply the best in town. Fresh, flavorful, and
               perfectly baked every time."
             </p>
-            <div className="testimonial-author">- Robert J.</div>
+            <div className="testimonial-author">- Anonymous</div>
           </div>
         </div>
       </section>

@@ -199,6 +199,15 @@
   line-height: 1.7;
 }
 
+.map-container {
+  text-align: center;
+  padding: 20px;
+}
+.map {
+  margin-top: 10px;
+}
+
+
 @media (max-width: 768px) {
   .contact-container {
     grid-template-columns: 1fr;
