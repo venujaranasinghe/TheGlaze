@@ -1,7 +1,9 @@
 import Hero from "../components/Hero"
 import FeaturedSection from "../components/FeaturedSection"
 import ProductGrid from "../components/ProductGrid"
+import CakeGallery from "../components/CakeGallery"
 import "./Home.css"
+import "../components/CakeGallery.css"
 
 const Home = () => {
   const featuredProducts = [
@@ -44,35 +46,13 @@ const Home = () => {
         linkUrl="/about"
       />
 
-      <div className="gallery-preview">
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
-        <div className="gallery-item video-item" style={{ backgroundImage: "url(/images/product.jpg)" }}>
-          <div className="play-button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="48"
-              height="48"
-              viewBox="0 0 24 24"
-              fill="white"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <polygon points="5 3 19 12 5 21 5 3"></polygon>
-            </svg>
-          </div>
-        </div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
-        <div className="gallery-item" style={{ backgroundImage: "url(/images/product.jpg)" }}></div>
-      </div>
+      <CakeGallery />
 
       <FeaturedSection
         title="The recipe to happiness"
         description="Our pastry chefs blend artistry with flavor to create desserts that are as beautiful as they are delicious. Each creation is a masterpiece of taste and design, made fresh daily in our bakery."
-        image1="/images/product.jpg"
-        image2="/images/product.jpg"
+        image1="/images/w3.jpg"
+        image2="/images/w3.jpg"
         linkText="View Our Menu"
         linkUrl="/menu"
       />
