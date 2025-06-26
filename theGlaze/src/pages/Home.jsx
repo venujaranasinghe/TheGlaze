@@ -1,33 +1,33 @@
 import Hero from "../components/Hero"
 import FeaturedSection from "../components/FeaturedSection"
 import ProductGrid from "../components/ProductGrid"
-import CakeGallery from "../components/CakeGallery"
+import Slideshow from "../components/Slideshow"
 import "./Home.css"
-import "../components/CakeGallery.css"
+import "../components/Slideshow.css"
 
 const Home = () => {
   const featuredProducts = [
     {
       name: "Chocolate Truffle Cake",
       description: "Rich chocolate layers with smooth ganache",
-      price: 42.99,
-      image: "/images/chocolate-cake.jpg",
+      price: 3900,
+      image: "/images/Cakes/IMG_1825.JPG",
       featured: true,
       link: "/menu/cakes/chocolate-truffle",
     },
     {
-      name: "Red Velvet Cupcakes",
+      name: "Chocolate Cupcakes",
       description: "Classic red velvet with cream cheese frosting",
-      price: 24.99,
-      image: "/images/red-velvet-cupcakes.jpg",
+      price: 1200,
+      image: "/images/cuu.jpg",
       featured: false,
       link: "/menu/cupcakes/red-velvet",
     },
     {
       name: "Artisan Cookies",
       description: "Handcrafted cookies with premium ingredients",
-      price: 18.99,
-      image: "/images/artisan-cookies.jpg",
+      price: 1700,
+      image: "/images/coo.jpg",
       featured: false,
       link: "/menu/cookies/artisan",
     },
@@ -46,7 +46,7 @@ const Home = () => {
         linkUrl="/about"
       />
 
-      <CakeGallery />
+      <Slideshow />
 
       <FeaturedSection
         title="The recipe to happiness"
