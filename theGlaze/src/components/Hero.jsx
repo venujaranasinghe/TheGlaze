@@ -9,19 +9,19 @@ const Hero = () => {
 
   const slides = [
     {
-      image: "/images/background.jpg",
+      image: "/images/bg1.jpg",
       title: "FRESH",
       subtitle: "cakes",
       description: "Handcrafted with love and premium ingredients",
     },
     {
-      image: "/images/background2.jpg",
+      image: "/images/bg2.jpg",
       title: "fresh",
       subtitle: "COOKIES",
       description: "Baked daily for that perfect crunch and flavor",
     },
     {
-      image: "/images/background1.jpg",
+      image: "/images/bg3.jpg",
       title: "sweet",
       subtitle: "CUPCAKES",
       description: "Little bites of heaven in every flavor",
